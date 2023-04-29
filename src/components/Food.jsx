@@ -42,7 +42,7 @@ const [foods, setFoods] = useState(data)
       </div>
 
       {/* Display foods */}
-      <div className='grid gird-cols-2 lg:grid-cols-4 gap-6 pt-4'>
+      <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
         {foods.map((item, index)=> (
           <div key={index} className='border shadow-lg rounded-lg hover:scale-105 duration-300'>
             <img src={item.image} alt={item.name}
